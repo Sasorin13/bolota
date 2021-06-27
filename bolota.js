@@ -22,4 +22,4 @@ bolotinha.on("message", message => {
   }
 })
 
-bolotinha.login("ODU4ODI0MzE0MDM5NDM1Mjk0.YNjweA.onxKdxGKN_EXhlMuzhhfFLWk0Os")
+bolotinha.login("")
