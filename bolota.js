@@ -9,9 +9,16 @@ bolotinha.on("ready", () => {
   console.log(`E nasceu das cinzas, o ${bolotinha.user.tag}!`)
 })
 
+
 // Quando o usuario enviar uma mensagem:
 bolotinha.on("message", message => {
-  if (message.content === "+bencao") {
+ if (message.content === "+server"){
+     message.reply("O melhor server!");
+    message.reply("jogar.craftit.com.br");
+ }
+ 
+
+    if (message.content === "+bencao") {
       message.reply("Bolotinha te abencoe!");
   }
 
